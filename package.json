@@ -1,0 +1,41 @@
+{
+  "name": "pocr",
+  "version": "1.0.0",
+  "description": "personal ocr ,easy to use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apporoad/pocr.git"
+  },
+  "keywords": [
+    "ocr"
+  ],
+  "author": "apporoad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apporoad/pocr/issues"
+  },
+  "homepage": "https://github.com/apporoad/pocr#readme",
+  "dependencies": {
+    "cli.config.js": "^1.1.2",
+    "commander": "^2.19.0",
+    "find": "^0.2.9",
+    "gm": "^1.23.1",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.6",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "lisa.promise": "^1.0.1",
+    "mkdirp": "^0.5.1",
+    "node-wget": "^0.4.3",
+    "rm-rf-async": "^1.2.0",
+    "textract": "^2.4.0",
+    "winston": "^3.1.0",
+    "worker-farm": "^1.6.0",
+    "xget.js": "0.0.2"
+  }
+}
